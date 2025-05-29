@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Website</title>
+
+    <style>
+        
+        *{
+            margin: 0px;
+         }
+
+        .Main1{
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            background-color: brown;
+        }
+
+        #Main1_Image{
+            width: 100%;
+            height: 100%;
+           
+        }
+
+        .Sub11{
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+        .Sub11 img{
+            width: 200px;
+
+        }
+
+        .Sub12{
+            position: absolute;
+            top: 50px;
+            right: 100px;
+            color: rgb(189, 147, 40);
+            font-size: x-large;
+        }
+
+        .Sub12 td{
+            padding-right: 70px;
+        }
+
+        .Sub13{
+            color: rgb(237, 180, 38);
+            font-size: 50px;
+            position: absolute;
+            bottom: 120px;
+            right: 200px;
+        }
+
+        .Main2{
+             position: relative;
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+
+        }
+
+        .Sub21{
+            font-size: x-large;
+            color: aliceblue;
+            text-align: center;
+            position: absolute;
+            left: 5vw;
+            top: 30vh;
+            width: 40vw;
+            height: 40vh;
+            
+            
+        }
+
+        .Sub22{
+            position: absolute;
+            right: 0vw;
+            top: 0vh;
+            width: 50vw;
+            height: 100vh;
+            background-color: blue;
+            opacity: 0;
+        }
+
+        .Sub22 img{
+            width: 50vw;
+            height: 100vh;
+
+        }
+
+        #Div1{
+            transition: all 2s ease-in-out;
+        }
+
+        .Main2:hover #Div1{
+            opacity: 1;
+            transition-delay: 0s;
+        }
+
+         #Div2{
+            transition: all 2s ease-in-out;
+        }
+
+        .Main2:hover #Div2{
+            opacity: 1;
+            transition-delay: 3s;
+        }
+
+         #Div3{
+            transition: all 2s ease-in-out;
+        }
+
+        .Main2:hover #Div3{
+            opacity: 1;
+            transition-delay: 6s;
+        }
+
+         #Div4{
+            transition: all 2s ease-in-out;
+        }
+
+        .Main2:hover #Div4{
+            opacity: 1;
+            transition-delay: 9s;
+        }
+
+        
+    </style>
+
+
+</head>
+<body>
+    <div class="Main1">
+        <img src="https://media.craiyon.com/2025-04-28/aYzMnTI4QEWc22m02NBmmw.webp" alt="" id="Main1_Image">
+
+        <div class="Sub11">
+            <img src="https://freepngdesign.com/content/uploads/images/jaguar-metallic-golden-logo-6443.png" alt="">
+
+        </div>
+
+        <div class="Sub12">
+            <table>
+                <tr>
+                    <td>Home</td>
+                    <td>About</td>
+                    <td>Models</td>
+                    <td>Players</td>
+                    <td>Colors</td>
+                </tr>
+            </table>
+
+
+        </div>
+
+
+        <div class="Sub13">
+
+            <h1>Dodge Challenger</h1>
+        </div>
+
+    </div>
+
+    <div class="Main2">
+        <div class="Sub21">
+            <h1>Dodge Challenger</h1>
+            <p>The Dodge Challenger is the name of three generations of automobiles produced by the American automobile manufacturer Dodge. However, the first use of the Challenger name by Dodge dates back to 1959 for marketing a "value version" of the full-sized Coronet Silver Challenger.</p>
+
+        </div>
+
+        <div class="Sub22" id="Div1">
+            <img src="https://i.pinimg.com/736x/00/78/3c/00783ca3d6222fa4749971829a59927c.jpg" alt="">
+
+        </div>
+
+         <div class="Sub22" id="Div2">
+            <img src="https://static.designboom.com/wp-content/uploads/2019/11/2020-dodge-challenger-50th-anniversary-la-auto-show-2019-designboom04.jpg" alt="">
+
+        </div>
+
+         <div class="Sub22" id="Div3">
+            <img src="https://thumbs.dreamstime.com/b/photo-dodge-challenger-engine-auto-show-washington-dc-inside-convention-center-dodge-challenger-engine-171276686.jpg" alt="">
+
+        </div>
+
+         <div class="Sub22" id="Div4">
+            <img src="https://images.pexels.com/photos/22225487/pexels-photo-22225487.jpeg?cs=srgb&dl=pexels-elmir-jafarov-375483362-22225487.jpg&fm=jpg" alt="">
+
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
